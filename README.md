@@ -4,6 +4,10 @@ mpeg audio layer 3 encoder written in Fortran 90/95
 Never touched since around 2003~4. 
 
 #
+standard_f90.f90 : written with standard Fortran 90/95 syntax for both little & Big Endian  
+windowsCVF.f90   : written with Compaq Visual Fortran extensions. little endian assumed   
+
+#
 Mpeg-I audio layer-III encoder
 
 Fortran95 ‚Ì–½—ß‚ğg‚Á‚Ä‚¢‚Ü‚·B
