@@ -13,7 +13,7 @@ Fortran95 の命令を使っています。
 原理理解のための習作なので一応 VBR なども入っています。  
 恥ずかしいけど出しますｗ  
 
-
+```
  Usage : uzura3 -options file_name  
        : file_name.wav -> file_name.mp3  
  Option:-b  1..14   bitrate for CBR mode                 (default 9 : 128kbps)  
@@ -45,9 +45,9 @@ Fortran95 の命令を使っています。
 		  
  Example CBR 128kbps CRC on : uzura3 -crc   file_name  
  Example VBR normal stereo  : uzura3 -v -ns file_name  
-   
+```  
      
-	   
+```	    
  total frames 7104  
  Normal End.  
  ======== info ===============================================================  
@@ -71,4 +71,6 @@ Average scale factor (long 0-20)   4278
  bit:    1    2    3    4    5    6    7    8    9   10   11   12   13   14  
  (%):  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0100.0  0.0  0.0  0.0  0.0  0.0  
  average bit rate (kbps) 128.00      :maximum distortion    0.00013  
- ======== info ===============================================================  
+ ======== info ===============================================================
+```
+   
